@@ -90,13 +90,13 @@ const ChapterScreen = () => {
       id: 2,
       title: "MODULO 2: \n Amenazas Actuales",
       description: "¡Podrás mantenerte informad@ sobre las amenazas que afectan a Mexico! \n Incluye estafas y métodos de Phishing",
-      route: "TaskFormScreen", // Define la ruta para el segundo botón
+      route: "Modulo2", // Define la ruta para el segundo botón
     },
     {
       id: 3,
       title: "MODULO 3: \n Módulo de Denuncias",
       description: "¡Te guiaremos por el camino correcto para denunciar en caso de ser víctima de ciber ataques, estafas o robos de identidad!",
-      route: "RUTA_PARA_MODULO_3", // Define la ruta para el tercer botón
+      route: "Modulo3", // Define la ruta para el tercer botón
     },
   ]);
 

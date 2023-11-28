@@ -4,7 +4,7 @@ import { useIsFocused, useNavigation } from "@react-navigation/native";
 import Icon from 'react-native-vector-icons/FontAwesome'; // Asegúrate de importar la biblioteca de iconos que desees
 import { Image } from "react-native";
 
-const CARD_SIZE = 150;
+const CARD_SIZE = 180;
 
 const styles = StyleSheet.create({
     container: {
@@ -81,7 +81,7 @@ const TopicsScreen = () => {
         {
             id: 1,
             title: "Phishing",
-            description: "Es un tipo de ataque cibernético en el que los delincuentes intentan engañar a las personas para que revelen información personal",
+            description: "Es un tipo de ataque cibernético en el que los delincuentes intentan engañar a las personas para que revelen información personal \n",
             imageURL: "https://easydmarc.com/blog/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2021/09/Module-4-image-768x576.png.webp",
             route: "cap1Screen1",
         },
@@ -94,12 +94,12 @@ const TopicsScreen = () => {
         },{
             id: 3,
             title: "Robo de identidad",
-            description: "Protege tus datos personales: No compartas información personal, como números de seguro social, número de identificación personal, o contraseñas a menos que estés seguro de que la solicitud es legítima",
+            description: "Protege tus datos personales: No compartas información personal, como números de seguro social, número de identificación personal, o contraseñas a menos que estés seguro de que la solicitud es legítima\n",
             imageURL: "https://images.reporteindigo.com/wp-content/uploads/2023/02/robo-de-identidad-mexico.png",
             route: "cap1Screen3",
         },{
             id: 4,
-            title: "Suplantación de identidad \n\n ¿Qué es la Suplantación de Identidad?  " ,
+            title: "Suplantación de identidad" ,
             description: "La suplantación de identidad o spoofing implica que un estafador se hace pasar por alguien de confianza para engañarte y obtener información personal",
             imageURL: "https://www.infosegur.net/images/blog/Spoofing.webp",
             route: "cap1Screen4",
@@ -114,7 +114,7 @@ const TopicsScreen = () => {
         {
             id: 6,
             title: "Ciberbullying y sexting ",
-            description: "Es un acto de acoso, intimidación o hostigamiento que ocurre en línea. Implica el uso de tecnología, como redes sociales, mensajes de texto o correo electrónico, para dañar emocionalmente a la víctima",
+            description: "Es un acto de acoso, intimidación o hostigamiento que ocurre en línea. Implica el uso de tecnología, como redes sociales, mensajes de texto o correo electrónico, para dañar emocionalmente a la víctima \n",
             imageURL: "https://www.redhnna.org/wp-content/uploads/Sexting-1024x675.jpg",
             route: "cap1Screen6",
         },
